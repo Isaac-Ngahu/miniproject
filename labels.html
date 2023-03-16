@@ -1,0 +1,38 @@
+<!DOCTYPE Html>
+<html>
+<head><title></title>
+
+</head>
+<body>
+<form>
+<label for="name input">Name</label><!--creating labelling fields-->
+    <input id="name-input" type="text" name="name"/>
+
+    <label for="email input">Email adress</label>
+    <input id="email-input" type="email" name="email"/>
+
+    <label for="password input" minlength="8">Password</label><!--setting minimum characters to 8-->
+    <input id="password-input" type="password" name="email"/>
+
+
+<div>
+    <input type="checkbox"  required><!---checkbox label-->
+    <label for="terms">I accept the terms of service.</label>
+  </div>
+  <div>
+    <button type="submit">Register</button>
+  </div>
+
+        <fieldset>
+            <legend>Referer</legend><!--adding referer fieldset-->
+
+            <input type="radio" name="referrer" value="TV" default="none">TV</input>
+            <input type="radio" name="referrer"value="Internet" default="none">Internet</input>
+            <input type="radio" name="referrer"value="None" default="none">None</input>
+        </fieldset>
+    
+</form>
+
+</body>
+</html>
+
